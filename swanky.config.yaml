@@ -1,0 +1,12 @@
+title                   : docs
+repo                    : https://github.com
+version                 : 0.0.0
+src                     : docs
+theme                   : docs/themes/docs-theme
+output                  : build
+serverPath              : docs
+
+sections                :
+
+  - title               : Overview
+    content             : 'docs/content/overview.md'

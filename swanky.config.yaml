@@ -1,12 +1,12 @@
-title                   : docs
+title                   : Swanky Docs - API Documentation
 repo                    : https://github.com
 version                 : 0.0.0
-src                     : docs
-theme                   : docs/themes/docs-theme
-output                  : build
+src                     : src
+theme                   : src/themes/docs-theme
+output                  : docs
 serverPath              : docs
 
 sections                :
 
   - title               : Overview
-    content             : 'docs/content/overview.md'
+    content             : 'src/content/overview.md'

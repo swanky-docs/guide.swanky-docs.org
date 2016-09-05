@@ -1,7 +1,7 @@
 ## Setup
 
 ### Installation
-You can start creating beautiful documentation in a few easy steps with the Swanky Yeoman Generator. If you encounter any problems, please submit a [GitHub issue](https://github.com/swanky-docs/generator-swanky/issues) and we'll do our best to help you with it.
+You can start creating beautiful documentation in a few easy steps with the Swanky Docs Yeoman Generator. If you encounter any problems, please submit a [GitHub issue](https://github.com/swanky-docs/generator-swanky/issues) and we'll do our best to help you with it.
 
 #### System requirements:
 - [Node.js](https://nodejs.org/en/)

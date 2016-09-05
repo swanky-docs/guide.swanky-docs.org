@@ -121,10 +121,140 @@
         
 
         
-            <section id="sid-9geOjS1l" class="index_section__2B6j1">
+            <section id="sid-cBldCh7j" class="index_section__2B6j1">
     
 
     <h2 class="index_h2__1jt7Y" id="overview">Overview</h2>
+
+<h3 class="index_h3__3RRan" id="swankydocsconfigurationfile">Swanky Docs Configuration File</h3>
+
+<p class="index_p__HAFh9">The Swanky Docs configuration file <code class="index_code__ZBWdB">swanky.config.yaml</code> is the entry point to defining how your documentation is created. It contains the basic meta details and the sections that make up your documentation.</p>
+
+<p class="index_p__HAFh9"><em class="index_em__FfTdW">Basic swanky.config.yaml</em></p>
+
+<pre class="index_pre__bQyHp"><code class="index_code__ZBWdB">---
+title                   : Swanky Docs
+version                 : 0.0.0
+src                     : src
+output                  : docs
+theme                   : docs/themes/dapper
+
+sections                :
+  - title               : Overview
+    content             : src/content/overview.md
+
+    subSections         :
+      - title           : Setup
+        content         : src/content/setup.md
+...
+</code></pre>
+
+<h4 class="index_h4__1Kcic" id="basicsitemetaconfiguration">Basic site meta configuration</h4>
+
+<table class="index_table__1fqH2">
+<thead>
+<tr class="index_tr__1bOGP">
+<th class="index_th__Zge8q" style="text-align:left;">Key</th>
+<th class="index_th__Zge8q" style="text-align:left;">Description</th>
+<th class="index_th__Zge8q" style="text-align:left;">Default</th>
+</tr>
+</thead>
+<tbody>
+<tr class="index_tr__1bOGP">
+<td class="index_td__3b4Mh" style="text-align:left;">title</td>
+<td class="index_td__3b4Mh" style="text-align:left;">Title of your documentation site</td>
+<td class="index_td__3b4Mh" style="text-align:left;">Swanky Docs</td>
+</tr>
+<tr class="index_tr__1bOGP">
+<td class="index_td__3b4Mh" style="text-align:left;">src</td>
+<td class="index_td__3b4Mh" style="text-align:left;">Folder to place documentation files in</td>
+<td class="index_td__3b4Mh" style="text-align:left;">docs</td>
+</tr>
+<tr class="index_tr__1bOGP">
+<td class="index_td__3b4Mh" style="text-align:left;">output</td>
+<td class="index_td__3b4Mh" style="text-align:left;">Folder to generate production build into</td>
+<td class="index_td__3b4Mh" style="text-align:left;">build</td>
+</tr>
+<tr class="index_tr__1bOGP">
+<td class="index_td__3b4Mh" style="text-align:left;">theme</td>
+<td class="index_td__3b4Mh" style="text-align:left;">Theme path</td>
+<td class="index_td__3b4Mh" style="text-align:left;">docs/themes/[sitename]-theme</td>
+</tr>
+<tr class="index_tr__1bOGP">
+<td class="index_td__3b4Mh" style="text-align:left;">layout</td>
+<td class="index_td__3b4Mh" style="text-align:left;">Custom layout template path <strong class="index_strong__11iG2">(optional)</strong></td>
+<td class="index_td__3b4Mh" style="text-align:left;">docs/themes/[sitename]-theme/templates/layouts</td>
+</tr>
+<tr class="index_tr__1bOGP">
+<td class="index_td__3b4Mh" style="text-align:left;">partials</td>
+<td class="index_td__3b4Mh" style="text-align:left;">Custom partial templates path <strong class="index_strong__11iG2">(optional)</strong></td>
+<td class="index_td__3b4Mh" style="text-align:left;">docs/themes/[sitename]-theme/templates/partials</td>
+</tr>
+<tr class="index_tr__1bOGP">
+<td class="index_td__3b4Mh" style="text-align:left;">serverPath</td>
+<td class="index_td__3b4Mh" style="text-align:left;">The folder where your built documentation will be served from. e.g. http://swanky-docs.io/docs</td>
+<td class="index_td__3b4Mh" style="text-align:left;">/</td>
+</tr>
+<tr class="index_tr__1bOGP">
+<td class="index_td__3b4Mh" style="text-align:left;">snippets</td>
+<td class="index_td__3b4Mh" style="text-align:left;">Location of your reusable html, css and js snippets</td>
+<td class="index_td__3b4Mh" style="text-align:left;">docs/snippets</td>
+</tr>
+</tbody>
+</table>
+
+<h4 class="index_h4__1Kcic" id="sectionsconfiguration">Sections configuration</h4>
+
+<table class="index_table__1fqH2">
+<thead>
+<tr class="index_tr__1bOGP">
+<th class="index_th__Zge8q" style="text-align:left;">Key</th>
+<th class="index_th__Zge8q" style="text-align:left;">Description</th>
+<th class="index_th__Zge8q" style="text-align:left;">Default</th>
+</tr>
+</thead>
+<tbody>
+<tr class="index_tr__1bOGP">
+<td class="index_td__3b4Mh" style="text-align:left;">sections</td>
+<td class="index_td__3b4Mh" style="text-align:left;">Array of documentation pages</td>
+<td class="index_td__3b4Mh" style="text-align:left;">N/A</td>
+</tr>
+</tbody>
+</table>
+
+<h4 class="index_h4__1Kcic" id="pageconfiguration">Page configuration</h4>
+
+<table class="index_table__1fqH2">
+<thead>
+<tr class="index_tr__1bOGP">
+<th class="index_th__Zge8q" style="text-align:left;">Key</th>
+<th class="index_th__Zge8q" style="text-align:left;">Description</th>
+<th class="index_th__Zge8q" style="text-align:left;">Default</th>
+</tr>
+</thead>
+<tbody>
+<tr class="index_tr__1bOGP">
+<td class="index_td__3b4Mh" style="text-align:left;">title</td>
+<td class="index_td__3b4Mh" style="text-align:left;">Title of page. Will be used to generate page slug.</td>
+<td class="index_td__3b4Mh" style="text-align:left;">N/A</td>
+</tr>
+<tr class="index_tr__1bOGP">
+<td class="index_td__3b4Mh" style="text-align:left;">content</td>
+<td class="index_td__3b4Mh" style="text-align:left;">Path to content. Accepts glob pattern, url or direct path.</td>
+<td class="index_td__3b4Mh" style="text-align:left;">N/A</td>
+</tr>
+<tr class="index_tr__1bOGP">
+<td class="index_td__3b4Mh" style="text-align:left;">bootstrap</td>
+<td class="index_td__3b4Mh" style="text-align:left;">This allows you to add a specific script to only be loaded on a particular page. This is very commonly used to "bootstrap" framework specific modules e.g. AngularJs / React</td>
+<td class="index_td__3b4Mh" style="text-align:left;">N/A</td>
+</tr>
+<tr class="index_tr__1bOGP">
+<td class="index_td__3b4Mh" style="text-align:left;">preprocessor</td>
+<td class="index_td__3b4Mh" style="text-align:left;">Expects a key representing the preprocessor you want to run your content through. Each preprocessor may have individual options that can be passed. Please check the relevant Swanky Docs preprocessor documentation for further info.</td>
+<td class="index_td__3b4Mh" style="text-align:left;">N/A</td>
+</tr>
+</tbody>
+</table>
 </section>
 
         

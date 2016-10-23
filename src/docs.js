@@ -4,5 +4,3 @@ if (__DEV__) {
 
 // Documentation specific styles
 import './docs.styl';
-
-// Add any javascript here

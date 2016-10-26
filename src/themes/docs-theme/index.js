@@ -17,7 +17,6 @@ import 'prismjs/plugins/line-numbers/prism-line-numbers';
 // Base theme
 import './css/index.styl';
 
-
 (() => {
   accordion.init();
 

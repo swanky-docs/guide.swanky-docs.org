@@ -10,4 +10,5 @@ A project can have many different contributors all collaborating to achieve a si
 
 Unlike other documentation tools Swanky Docs does not enforce a specific way of writing documentation or require you to use any custom markup. Swanky Docs embraces how you already make your documentation e.g. *markdown files*, *comments in your code*, *documentation on github*... With the flexibility and power of Swanky Docs __processors__ you can capture any source and turn it into beautiful documentation.
 
-<img src="assets/images/project-team.png" width="320" />
+<img src="~assets/img/project-team.png" width="320" />
+

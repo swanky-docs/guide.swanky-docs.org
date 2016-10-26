@@ -17,12 +17,12 @@
     "http-server": "0.9.0",
     "npm-run-all": "3.1.1",
     "rimraf": "2.5.4",
-    "swanky-server": "2.3.0",
+    "swanky-server": "2.4.3",
     "webpack": "2.1.0-beta.25"
   },
   "version": "1.0.0",
   "main": "index.js",
-  "repository": {
+  "reposyarnitory": {
     "url": "git@github.com:swanky-docs/docs.git",
     "type": "git"
   },

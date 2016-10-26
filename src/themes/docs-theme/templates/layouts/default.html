@@ -40,7 +40,7 @@
 </aside>
 
 <section class="{$ styles.main $}">
-    <article>
+   <article>
         {% if hasAnchors %}
             <div class="{$ styles.anchors $}" data-gumshoe>
                 {% for item in contents %}
@@ -70,7 +70,7 @@
 
        var disqus_config = function () {
          this.page.url = 'https://swanky-docs.github.io{$ meta.serverPath $}{$ url $}';
-         this.page.identifier = '{$ url $}';
+         this.page.identifier = {$ url $};
        };
 
       (function() { // DON'T EDIT BELOW THIS LINE

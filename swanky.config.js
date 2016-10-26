@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Swanky Docs - API Documentation',
-  repo: 'https://github.com/swanky-docs/docs',
+  repo: 'https://github.com/swanky-docs/generator-swanky',
   version: '0.0.0',
   src: 'src',
   theme: 'src/themes/docs-theme',

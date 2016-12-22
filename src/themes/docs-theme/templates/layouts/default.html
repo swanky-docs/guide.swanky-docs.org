@@ -63,6 +63,10 @@
         {% for item in contents %}
             {$ item.content $}
         {% endfor %}
+
+       <div class="{$ styles['callout'] $}">
+         Seen a mistake or want to contribute to the documentation? <a class="{$ styles['a'] $}" href="https://github.com/swanky-docs/docs/tree/master/{$ contentSrc $}" title="Edit this page on Github!" target="_blank">Edit this page on Github!</a>
+       </div>
     </article>
 
     <div id="disqus_thread"></div>

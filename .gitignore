@@ -4,6 +4,7 @@ _gh_pages
 node_modules
 npm-debug.log
 temp
+docs
 tmp
 vendor
 .idea

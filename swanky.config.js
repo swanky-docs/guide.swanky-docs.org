@@ -4,8 +4,7 @@ module.exports = {
   version: '2.0.2',
   src: 'src',
   theme: 'src/themes/docs-theme',
-  output: 'docs/v2',
-  serverPath: 'v2',
+  output: 'docs',
   sections: [
     {
       title: 'Getting started',

@@ -1,5 +1,5 @@
 {
-  "name": "docs",
+  "name": "swanky-docs-guidew",
   "description": "Swanky Documentation",
   "scripts": {
     "start": "NODE_ENV=development node src/config/start/serve.dev.js",
@@ -22,7 +22,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "reposyarnitory": {
-    "url": "git@github.com:swanky-docs/docs.git",
+    "url": "git@github.com:swanky-docs/guide.swanky-docs.org.git",
     "type": "git"
   },
   "author": "Rod Leviton <rod@rodlevtion.com>",

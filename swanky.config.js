@@ -1,11 +1,10 @@
 module.exports = {
-  title: 'Swanky Docs - API Documentation',
-  repo: 'https://github.com/swanky-docs/generator-swanky',
+  title: 'Swanky Docs - Guide',
+  repo: 'https://github.com/swanky-docs/swanky',
   version: '0.0.0',
   src: 'src',
   theme: 'src/themes/docs-theme',
   output: 'docs',
-  serverPath: 'docs',
   sections: [
     {
       title: 'Getting started',

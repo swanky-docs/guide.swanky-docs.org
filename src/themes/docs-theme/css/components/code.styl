@@ -1,7 +1,7 @@
 // Code Preview Window
 .code-snippet
   position relative
-  margin-bottom 25px
+  margin-bottom 4rem
 
 .render-preview
   display: block;
@@ -28,8 +28,9 @@
 .window-bar
   transition: 0.25s ease-in-out
   height 38px
-  background #1D1F21
-  border-radius: 6px
+  background $white-smoke
+  border-top-left-radius 6px
+  border-top-right-radius 6px
 
 .window-bar .circles
   margin 10px 15px 0 15px
@@ -46,12 +47,12 @@
 
 .window-bar .circle-red
   background-color #FF5A57
-  border-color #E53C3C
+  border-color darken(#E53C3C, 5%)
 
 .window-bar .circle-yellow
   background-color #FFBE3E
-  border-color #E4A132
+  border-color darken(#FFBE3E, 5%)
 
 .window-bar .circle-green
   background-color #00CC50
-  border-color #00B140
+  border-color darken(#00CC50, 5%)

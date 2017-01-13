@@ -1,4 +1,4 @@
 const build = require('swanky').build;
 
 // Retrieve webpack build configuration
-module.exports = build('swanky.config.js');
+module.exports = build({ configPath: 'swanky.config.js' });

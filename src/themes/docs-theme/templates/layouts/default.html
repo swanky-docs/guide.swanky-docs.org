@@ -65,14 +65,18 @@
             {$ item.content $}
         {% endfor %}
 
-       <div class="{$ styles['callout'] $}">
-         Seen a mistake or want to contribute to the documentation? <a class="{$ styles['a'] $}" href="https://github.com/swanky-docs/guide.swanky-docs.org/tree/master/{$ contentSrc $}" title="Edit this page on Github!" target="_blank">Edit this page on Github!</a>
-       </div>
+      <div class="{$ styles['guide-links'] $} {$ styles.clearfix $}">
+        {% if previousPage %}<a href="/{$ previousPage.url $}" class="{$ styles.a $} {$ styles.previous $}">← {$ previousPage.title $}</a>{% endif %}
+        {% if nextPage %}<a href="/{$ nextPage.url $}" class="{$ styles.a $} {$ styles.next $}">{$ nextPage.title $} →</a>{% endif %}
+      </div>
+
+      <div class="{$ styles['callout'] $}">
+        Seen a mistake or want to contribute to the documentation? <a class="{$ styles['a'] $}" href="https://github.com/swanky-docs/guide.swanky-docs.org/tree/master/{$ contentSrc $}" title="Edit this page on Github!" target="_blank">Edit this page on Github!</a>
+      </div>
     </article>
 
     <div id="disqus_thread"></div>
     <script>
-
        var disqus_config = function () {
          this.page.url = 'https://swanky-docs.github.io{$ meta.serverPath $}{$ url $}';
          this.page.identifier = {$ url $};

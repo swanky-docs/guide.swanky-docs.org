@@ -31,6 +31,6 @@ $ swanky --help
 ```
 
 ### That's A Wrap
-If you have followed the [Getting Started](/getting-started/setup-installation.html) guide and have made it this far, you should now enough to build any type of 
+If you have followed the [Getting Started](/getting-started/setup-installation.html) guide and have made it this far, you should know enough to build any type of 
 documentation you require. If you think we have missed something or you have a feature suggestion/improvement please drop us 
 a line at [GitHub](https://github.com/swanky-docs/swanky-cli/issues). Peace. &#128330;

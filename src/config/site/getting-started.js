@@ -5,7 +5,7 @@ module.exports = [
   },
   {
     title: 'Configuration',
-    content: 'src/content/getting-started/configuration.md'
+    content: 'src/content/getting-started/configuration-file.md'
   },
   {
     title: 'Commands',

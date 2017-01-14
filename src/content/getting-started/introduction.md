@@ -15,5 +15,5 @@ Unlike many other documentation tools that are focused on building documentation
 [Markdown](https://daringfireball.net/projects/markdown/), [Swagger](http://swagger.io/) etc. Swanky Docs can be configured to process 
 multiple source types to build a comprehensive documentation asset, it can even combine multiple source types into single pages.
 
-### Get Started
+### Let's Get Started!
 Follow this easy to follow step-by-step __Getting Started__ guide to get your docs up and running quickly.

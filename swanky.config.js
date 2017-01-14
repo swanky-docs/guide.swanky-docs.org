@@ -1,7 +1,6 @@
 module.exports = {
   "title": "Swanky Docs - Guide",
   "repo": "https://github.com/swanky-docs/swanky",
-  "version": "2.0.2",
   "src": "src",
   "theme": "src/themes/docs-theme",
   "output": "docs",
@@ -15,9 +14,17 @@ module.exports = {
           "content": "src/content/getting-started/setup.md"
         },
         {
+          "title": "Configuration File",
+          "content": "src/content/getting-started/configuration-file.md"
+        },
+        {
           "title": "Adding Content",
           "content": "src/content/getting-started/adding-content.md"
         },
+        {
+          "title": "Processing Content",
+          "content": "src/content/getting-started/processing-content.md"
+    },
         {
           "title": "Creating Snippets",
           "content": "src/content/getting-started/snippets.md"

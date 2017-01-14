@@ -24,8 +24,13 @@ $ swanky [generate] [type]
 ```
 
 ### Help
-The __Swanky CLI Tool__ also has a very simple help menu.
+The __Swanky CLI Tool__ has a very simple help menu.
 
 ```bash
 $ swanky --help
 ```
+
+### That's A Wrap
+If you have followed the [Getting Started]() guide and have made it this far, you should now enough to build any type of 
+documentation you require. If you think we have missed something or you have a feature suggestion/improvement please drop us 
+a line at [GitHub](https://github.com/swanky-docs/swanky-cli/issues). Peace. &#128330;

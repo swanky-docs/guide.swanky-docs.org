@@ -1,12 +1,19 @@
 ## Introduction
 
-Welcome to the Swanky Docs - Documentation. Please find information on how to setup, use and configure Swanky Docs for your project. If you do not find what you are looking for please a look at the [troubleshooting](getting-started/troubleshooting.html) guide or raise an issue on [GitHub](https://github.com/swanky-docs/generator-swanky/issues).
+Welcome to the Swanky Docs - Documentation. Please find information on how to setup, use and configure Swanky Docs for your project. 
+If you do not find what you are looking for please a look at the [troubleshooting](getting-started/troubleshooting.html) 
+guide or raise an issue on [GitHub](https://github.com/swanky-docs/generator-swanky/issues).
 
 ### What is Swanky Docs?
-Swanky Docs is a framework that enables you to create beautiful documentation from any source that you can provide it with. Swanky Docs can be viewed as a type of static site generator that has been specifically focused on doing one thing well - __documentation__. Swanky Docs can be used to create __API documentation__, Living __Pattern Libraries__ or maybe a combination of both. There really is no limit to what you can document with Swanky Docs.
+Swanky Docs is a framework that enables you to create beautiful documentation from any source. 
+Swanky Docs is basically a static site generator that has been specifically designed to build documentation. Because 
+Swanky Docs can be easily configured to 'stitch' together multiple sources of content it lends 
+itself very well to building [Pattern Libraries](https://patterns.swanky-docs.org/).
 
 ### Why Swanky Docs?
-A project can have many different contributors all collaborating to achieve a single outcome. Good documentation that captures the requirements and outputs of all these contributing team members can be a very powerful tool in surfacing this information to benefit everyone. Swanky Docs has been designed to allow for this flexibility and adapt to your project teams specific requirements, whether it be a single developer/designer or a widespread project team across an entire organisation.
+Unlike many other documentation tools that are focused on building documentation from one type of source e.g. [JSDocs](http://usejsdoc.org/), 
+[Markdown](https://daringfireball.net/projects/markdown/), [Swagger](http://swagger.io/) etc. Swanky Docs can be configured to process 
+multiple source types to build a comprehensive documentation asset, it can even combine multiple source types into single pages.
 
-Unlike other documentation tools Swanky Docs does not enforce a specific way of writing documentation or require you to use any custom markup. Swanky Docs embraces how you already make your documentation e.g. *markdown files*, *comments in your code*, *documentation on github*... With the flexibility and power of Swanky Docs __processors__ you can capture any source and turn it into beautiful documentation.
-
+### Get Started
+Follow this easy to follow step-by-step __Getting Started__ guide to get your docs up and running quickly.

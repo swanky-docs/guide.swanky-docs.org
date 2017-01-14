@@ -1,6 +1,7 @@
 ## Setup and Installation
 
-The following guide shows you how to setup a [Swanky Docs](https://swanky-docs.org/) project from scratch. If you find this to labour intensive you can start creating beautiful documentation in a few easy steps with the [Swanky Docs CLI Tool](/getting-started/swanky-cli.html).
+The following guide shows you how to setup a [Swanky Docs](https://swanky-docs.org/) project from scratch. If you find this too laborious you can start 
+creating beautiful documentation in a few easy steps with the [Swanky Docs CLI Tool](/swanky-cli-tool.html).
 
 If you encounter any problems, please submit a [GitHub issue](https://github.com/swanky-docs/swanky/issues) and we'll do our best to help you with it.
 

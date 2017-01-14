@@ -1,7 +1,7 @@
 ## Introduction
 
 Welcome to the Swanky Docs - Documentation. Please find information on how to setup, use and configure Swanky Docs for your project. 
-If you do not find what you are looking for please a look at the [troubleshooting](getting-started/troubleshooting.html) 
+If you do not find what you are looking for please a look at the [troubleshooting](/troubleshooting.html) 
 guide or raise an issue on [GitHub](https://github.com/swanky-docs/generator-swanky/issues).
 
 ### What is Swanky Docs?

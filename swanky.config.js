@@ -19,46 +19,22 @@ module.exports = {
           "content": "src/content/getting-started/adding-content.md"
         },
         {
-          "title": "Snippets",
+          "title": "Creating Snippets",
           "content": "src/content/getting-started/snippets.md"
         },
         {
           "title": "Theme Customisation",
           "content": "src/content/getting-started/theme-customisation.md"
-        },
-        {
-          "title": "Swanky CLI",
-          "content": "src/content/getting-started/swanky-cli.md"
-        },
-        {
-          "title": "Commands",
-          "content": "src/content/getting-started/commands.md"
-        },
-        {
-          "title": "Troubleshooting",
-          "content": "src/content/getting-started/troubleshooting.md"
         }
       ]
     },
     {
-      "title": "Configuration",
-      "content": "src/content/configuration/introduction.md",
-      "subSections": [
-        {
-          "title": "Processors",
-          "content": "src/content/configuration/processors.md"
-        }
-      ]
+      "title": "Swanky CLI Tool",
+      "content": "src/content/swanky-cli-tool/introduction.md"
     },
     {
-      "title": "Customisation",
-      "content": "src/content/customisation/introduction.md",
-      "subSections": [
-        {
-          "title": "Themes",
-          "content": "src/content/customisation/themes.md"
-        }
-      ]
+      "title": "Troubleshooting",
+      "content": "src/content/troubleshooting/introduction.md"
     }
   ]
 }

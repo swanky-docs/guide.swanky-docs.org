@@ -39,7 +39,8 @@ import './css/index.styl';
     html: 'HTML',
     javascript: 'JavaScript',
     bash: 'Shell',
-    yaml: 'YAML'
+    yaml: 'YAML',
+    markdown: 'Markdown',
   };
 
   const codeBlocks = document.getElementsByTagName('code');

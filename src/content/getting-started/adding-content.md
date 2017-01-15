@@ -7,7 +7,7 @@ section will guide you through some of the many content configurations to get yo
 
 Within each section you define you can have one or multiple content sources that Swanky will use to generate a page of documentation.
 
-#### Example
+#### Example:
 ```yaml
 
 sections:
@@ -21,7 +21,7 @@ sections:
 Out of the box Swanky will process HTML and Markdown files without any extra configuration. The location of these sources 
 can be local or external. If the content source is external Swanky will retrieve the content via the URL specified and process - all without breaking a sweat!
 
-#### Example
+#### Example:
 ```yaml
 
 sections:
@@ -39,7 +39,7 @@ As a general guideline the following example illustrates how to configure the
 [Swanky NgDocs Processor](https://github.com/swanky-docs/swanky-processor-ngdocs) to process a JavaScript file 
 containing [NGDocs](https://github.com/angular/angular.js/wiki/Writing-AngularJS-Documentation) style documentation in the source code:
 
-#### Example
+#### Example:
 ```yaml
 
 sections:
@@ -54,7 +54,7 @@ sections:
 The Swanky configuration also supports two levels of content hierarchy. This hierarchy can be used to create multi-level 
 navigation within your chosen/custom theme. A 'child' section supports the same configuration options as a top level section.
 
-#### Example
+#### Example:
 ```yaml
 
 sections:
@@ -72,7 +72,7 @@ sections:
 Swanky supports the loading of additional scripts that are section specific. These script will only be loaded in the section for which they are specified. 
 The `bootstrap` option key supports an array of paths to JavaScript files.
 
-#### Example
+#### Example:
 ```yaml
 
 sections:
@@ -95,7 +95,7 @@ in the source code of the documented library e.g API specification, Working Exam
 of documentation is not realistic. Swanky Docs will enable you to capture all these various documentation sources to 
 construct a seamless page that caters to all styles of the documentation capturing process.
 
-#### Example
+#### Example:
 ```yaml
 
 sections:

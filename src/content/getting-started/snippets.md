@@ -10,13 +10,13 @@ By convention a snippet __must__ have the following structure:
 
 ```markdown
 snippets/
-   ├── my-snippet-name/
+   └── my-snippet-name/
        ├── index.js         * contains all JavaScript logic for snippet
        ├── template.html    * the html
        └── style.styl       * snippet css (can be written in stylus format)
 ```
 
-By default Swanky will expect to find your snippets in `[src]/snippets`. If needed you can change this location within your __Swanky Configuration__ file.
+By default Swanky will expect to find your snippets in `[src]/snippets`. You can change this location within your __Swanky Configuration__ file.
 
 #### Example:
 ```yaml

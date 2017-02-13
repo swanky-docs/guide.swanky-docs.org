@@ -26,7 +26,7 @@ $ npm init
 #### 2. Install Swanky
  
 ```bash
-$ npm install swanky --save
+$ npm install swanky --save-dev
 ```
 
 #### 3. Create Your Swanky Config File

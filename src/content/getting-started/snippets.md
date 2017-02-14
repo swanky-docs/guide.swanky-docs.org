@@ -3,7 +3,7 @@
 ### So What Are Snippets?
 
 Snippets are reusable 'chunks' of html, css and js that are specific to your documentation. They can be viewed as a type of 'poor mans' component.
-By design the are simple use and create. The best way to understand snippets is to write one, so lets get started.
+By design they are simple to use and create. The best way to understand snippets is to write one, so lets get started.
 
 ### Anatomy of a Snippet
 By convention a snippet __must__ have the following structure:

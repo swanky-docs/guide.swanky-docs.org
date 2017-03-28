@@ -84,6 +84,59 @@ sections:
     
 ```
 
+#### Supporting live-editing of ngdocs examples
+If you use `swanky-processor-ngdocs` as a preprocessor for `ngdoc` comments in your source code,
+you can edit the code for the example components directly in your browser. This is known as live-editing.
+To enable this feature, one of your additional scripts will need to import `swanky-processor-ngdocs/src/bootstrap/angular.bootstrap.js` for
+Angular components, or `swanky-processor-ngdocs/src/bootstrap/react.bootstrap.js` for React components. 
+Other kinds of components can be supported too.
+
+##### Angular Example
+```js
+/* File: path/to/script-1.js */
+import ngDocsBootstrap from 'swanky-processor-ngdocs/src/bootstrap/angular.bootstrap';
+
+// This line MUST contain a static-path (rather than a variable) so that Webpack can determine the list of files to require() at compile-time.
+const modulesToRequire = require.context('../../content/angular-components/', true, /^.*\/index.js$/);
+
+// Load all of the Angular modules that you can find then boot the app.
+function requireAll(requireContext) {
+  return requireContext.keys().map(requireContext);
+}
+
+const modules = requireAll(modulesToRequire);
+
+// Assume module.default is the module name (a string)
+const moduleMap = modules.reduce((acc, mod) => Object.assign(acc, {[mod.default]: mod}), {});
+
+ngDocsBootstrap(moduleMap);
+```
+
+##### React Example
+```js
+/* File: path/to/script-1.js */
+import reactBootstrap from 'swanky-processor-ngdocs/src/bootstrap/react.bootstrap';
+
+// This line MUST contain a static-path (rather than a variable) so that Webpack can determine the list of files to require() at compile-time.
+const modulesToRequire = require.context('../../content/react-components/', true, /^.*\/index.jsx$/);
+
+// Load all of the React modules that you can find.
+function requireAll(requireContext) {
+  return requireContext.keys().map(requireContext);
+}
+
+// Pass an object-map of moduleNames-to-module-functions: {'DatePicker': function DatePicker() ..., CardInput: function CardInput
+let moduleMap = {};
+
+requireAll(modulesToRequire).forEach(module => {
+  let moduleKeys = Object.keys(module.default);
+  moduleKeys.forEach(moduleKey => moduleMap[moduleKey] = module.default[moduleKey]);
+});
+
+reactBootstrap(moduleMap);
+```
+
+
 ### Advanced Content Configuration
 
 Using the concepts outlined in the [Basic Content Configuration](/getting-started/adding-content.html#user-content-basic-content-configuration) section we can

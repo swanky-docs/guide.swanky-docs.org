@@ -124,7 +124,7 @@ sections:
       swanky-processor-ngdocs: {}
   
   # Additional Scripts
-  # Page that requires additional scripts to be loaded
+  # Page that requires additional scripts to be loaded to render actual components
   - title: 'Angular Button'
     bootstrap:
       - 'src/config/bootstrap/angular.bootstrap.js'

@@ -12,7 +12,8 @@ A processor is an additional configuration option that tells Swanky how to read 
 
 Processor               | Description                                                                                                                                                                                              | Repo
 :---------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------
-Swanky NgDocs Processor | An [ngdocs](https://github.com/angular/angular.js/wiki/Writing-AngularJS-Documentation) flavour processor for documentation generated using the [Swanky Docs](https://github.com/swanky-docs) framework. | [Github](https://github.com/swanky-docs/swanky-processor-ngdocs)
+Swanky ngDocs Processor | An [ngdocs](https://github.com/angular/angular.js/wiki/Writing-AngularJS-Documentation) flavour processor for documentation generated using the [Swanky Docs](https://github.com/swanky-docs) framework. | [Github](https://github.com/swanky-docs/swanky-processor-ngdocs)
+Swanky JSDoc Processor | A [jsdoc](http://usejsdoc.org/index.html) processor for documentation generated using the [Swanky Docs](https://github.com/swanky-docs) framework. | [Github](https://github.com/swanky-docs/swanky-processor-jsodc). Supports multiple frameworks (Angular and React) as well as plain components.
 
 [wrap class="{$ styles.callout $}"]
 Can't see your processor here? [Drop us a line](https://github.com/swanky-docs/swanky/issues). We would love to know about it.

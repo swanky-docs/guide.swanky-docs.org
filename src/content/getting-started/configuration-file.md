@@ -1,14 +1,10 @@
 ## Configuration File
 
-Your Swanky Docs site will primarily be configured via the Swanky Configuration file. This file by default will be 
-called `swanky.config.yaml` and will sit in the root of your project folder.
+Your Swanky Docs site will primarily be configured via the Swanky Configuration file. This file by default will be called `swanky.config.yaml` and will sit in the root of your project folder.
 
 ### Supported Formats
 
-By default your Swanky Docs configuration file will be in the file format [YAML](http://yaml.org/). 
-The __YAML__ format is very easy to read and write (especially for smaller projects). Swanky Docs also supports [JSON](http://www.json.org/) and [JavaScript](https://www.javascript.com/)
-formats. The later can be especially useful when creating complex and dynamic configuration files. To use one of these optional extensions or a custom configuration file name you will 
-need to configure the [swanky](https://github.com/swanky-docs/swanky) engine to use this file.
+By default your Swanky Docs configuration file will be in the file format [YAML](http://yaml.org/). The __YAML__ format is very easy to read and write (especially for smaller projects). Swanky Docs also supports [JSON](http://www.json.org/) and [JavaScript](https://www.javascript.com/) formats. The later can be especially useful when creating complex and dynamic configuration files. To use one of these optional extensions or a custom configuration file name you will need to configure the [swanky](https://github.com/swanky-docs/swanky) engine to use this file.
 
 #### Development Server Configuration
 ```javascript
@@ -35,13 +31,11 @@ module.exports = build({
 ```
 
 [wrap class="{$ styles.callout $}"]
-If using the [Swanky CLI Tool](/swanky-cli-tool.html) please note that changing the default name of the `swanky.config.yaml` 
-file will prevent the CLI tool from automatically locating your configuration file. Changing the extension type will not affect this functionality.
+If using the [Swanky CLI Tool](/swanky-cli-tool.html) please note that changing the default name of the `swanky.config.yaml` file will prevent the CLI tool from automatically locating your configuration file. Changing the extension type will not affect this functionality.
 [/wrap]
 
 ### Configuration Options
-The __Swanky Configuration__ file supports a number of options which are likely to change and grow over time. Use the 
-table below to identify what configuration options are relevant to your project. All configuration options are optional (as the name suggests).
+The __Swanky Configuration__ file supports a number of options which are likely to change and grow over time. Use the table below to identify what configuration options are relevant to your project. All configuration options are optional (as the name suggests).
 
 #### Basic Configuration
 
@@ -77,10 +71,7 @@ All paths are relative to the root of your project folder.
 [/wrap]
 
 #### Sections Configuration
-The following table outlines the configuration options for defining sections of content. At first it may seem overwhelming but in reality getting 
-started is not very difficult at all. The wealth of options are available to you as your documentations complexity requirements increase. 
-View the [Adding Content](/getting-started/adding-content.html) guide to get up and running quickly. The table below can be used as a reference in 
-the future as you become more familiar and comfortable with the __Swanky Configuration__.
+The following table outlines the configuration options for defining sections of content. At first it may seem overwhelming but in reality getting started is not very difficult at all. The wealth of options are available to you as your documentations complexity requirements increase. View the [Adding Content](/getting-started/adding-content.html) guide to get up and running quickly. The table below can be used as a reference in the future as you become more familiar and comfortable with the __Swanky Configuration__.
 
 Key          | Type             | Details                                                                                                                                        | Default Value
 :-------     | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- | :------
@@ -137,5 +128,4 @@ All paths are relative to the root of your project folder.
 [/wrap]
 
 ### Phew! That's The Long Part Over!
-We have now covered all the configuration options available to you. 
-Even though there are many options available we suggest using them only when you need to - that will keep your configuration file slim and easy to read.
+We have now covered all the configuration options available to you. Even though there are many options available we suggest using them only when you need to - that will keep your configuration file slim and easy to read.

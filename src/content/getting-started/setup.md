@@ -1,7 +1,6 @@
 ## Setup and Installation
 
-The following guide shows you how to setup a [Swanky Docs](https://swanky-docs.org/) project from scratch. If you find this too laborious you can start 
-creating beautiful documentation in a few easy steps with the [Swanky Docs CLI Tool](/swanky-cli-tool.html).
+The following guide shows you how to setup a [Swanky Docs](https://swanky-docs.org/) project from scratch. If you find this too laborious you can start creating beautiful documentation in a few easy steps with the [Swanky Docs CLI Tool](/swanky-cli-tool.html).
 
 If you encounter any problems, please submit a [GitHub issue](https://github.com/swanky-docs/swanky/issues) and we'll do our best to help you with it.
 
@@ -60,5 +59,4 @@ $ node index.js
 ```
 
 ### What's Next?
-We have just looked at the tip of the iceberg for configuring your Swanky Docs. The majority of the 'grunt' work has already been taken care of by Swanky. 
-It is now up to you to start building the content.
+We have just looked at the tip of the iceberg for configuring your Swanky Docs. The majority of the 'grunt' work has already been taken care of by Swanky. It is now up to you to start building the content.

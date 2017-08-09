@@ -1,7 +1,6 @@
 ## Adding Content
 
-This will most likely be where you put the bulk of your efforts when creating any type of documentation site. This 
-section will guide you through some of the many content configurations to get you going.
+This will most likely be where you put the bulk of your efforts when creating any type of documentation site. This section will guide you through some of the many content configurations to get you going.
 
 ### Basic Content Configuration
 
@@ -18,8 +17,7 @@ sections:
 
 ### Content Sources & Formats
 
-Out of the box Swanky will process HTML and Markdown files without any extra configuration. The location of these sources 
-can be local or external. If the content source is external Swanky will retrieve the content via the URL specified and process - all without breaking a sweat!
+Out of the box Swanky will process HTML and Markdown files without any extra configuration. The location of these sources can be local or external. If the content source is external Swanky will retrieve the content via the URL specified and process - all without breaking a sweat!
 
 #### Example:
 ```yaml
@@ -30,14 +28,9 @@ sections:
 
 ```
 
-If you have a file format that is not natively supported by Swanky you may need to invoke the awesome power and 
-flexibility of [Swanky Processors](/getting-started/processing-content.html). A processor is an additional configuration 
-option that tells Swanky how to read and interpret the source. The processor you require might already 
-be [available](/getting-started/processing-content.html#user-copntent-available-processors).
+If you have a file format that is not natively supported by Swanky you may need to invoke the awesome power and flexibility of [Swanky Processors](/getting-started/processing-content.html). A processor is an additional configuration option that tells Swanky how to read and interpret the source. The processor you require might already be [available](/getting-started/processing-content.html#user-copntent-available-processors).
 
-As a general guideline the following example illustrates how to configure the 
-[Swanky NgDocs Processor](https://github.com/swanky-docs/swanky-processor-ngdocs) to process a JavaScript file 
-containing [NGDocs](https://github.com/angular/angular.js/wiki/Writing-AngularJS-Documentation) style documentation in the source code:
+As a general guideline the following example illustrates how to configure the [Swanky NgDocs Processor](https://github.com/swanky-docs/swanky-processor-ngdocs) to process a JavaScript file containing [NGDocs](https://github.com/angular/angular.js/wiki/Writing-AngularJS-Documentation) style documentation in the source code:
 
 #### Example:
 ```yaml
@@ -51,8 +44,7 @@ sections:
 ```
 
 ### Content Hierarchy
-The Swanky configuration also supports two levels of content hierarchy. This hierarchy can be used to create multi-level 
-navigation within your chosen/custom theme. A 'child' section supports the same configuration options as a top level section.
+The Swanky configuration also supports two levels of content hierarchy. This hierarchy can be used to create multi-level navigation within your chosen/custom theme. A 'child' section supports the same configuration options as a top level section.
 
 #### Example:
 ```yaml
@@ -69,8 +61,7 @@ sections:
 ```
 
 ### Additional Scripts
-Swanky supports the loading of additional scripts that are section specific. These script will only be loaded in the section for which they are specified. 
-The `bootstrap` option key supports an array of paths to JavaScript files.
+Swanky supports the loading of additional scripts that are section specific. These script will only be loaded in the section for which they are specified. The `bootstrap` option key supports an array of paths to JavaScript files.
 
 #### Example:
 ```yaml
@@ -85,11 +76,7 @@ sections:
 ```
 
 #### Supporting live-editing of ngdocs examples
-If you use `swanky-processor-ngdocs` as a preprocessor for `ngdoc` comments in your source code,
-you can edit the code for the example components directly in your browser. This is known as live-editing.
-To enable this feature, one of your additional scripts will need to import `swanky-processor-ngdocs/src/bootstrap/angular.bootstrap.js` for
-Angular components, or `swanky-processor-ngdocs/src/bootstrap/react.bootstrap.js` for React components. 
-Other kinds of components can be supported too.
+If you use `swanky-processor-ngdocs` as a preprocessor for `ngdoc` comments in your source code, you can edit the code for the example components directly in your browser. This is known as live-editing. To enable this feature, one of your additional scripts will need to import `swanky-processor-ngdocs/src/bootstrap/angular.bootstrap.js` for Angular components, or `swanky-processor-ngdocs/src/bootstrap/react.bootstrap.js` for React components. Other kinds of components can be supported too.
 
 ##### Angular Example
 ```js
@@ -139,14 +126,9 @@ reactBootstrap(moduleMap);
 
 ### Advanced Content Configuration
 
-Using the concepts outlined in the [Basic Content Configuration](/getting-started/adding-content.html#user-content-basic-content-configuration) section we can
-start to combine all the available configuration options into complex page structures.
+Using the concepts outlined in the [Basic Content Configuration](/getting-started/adding-content.html#user-content-basic-content-configuration) section we can start to combine all the available configuration options into complex page structures.
 
-To illustrate a 'real world' use case you may have a section of your documentation that has one or more sections that are driven 
-from __Markdown__ files e.g. _Overview_, _Accessibility Guidelines_ and another section that is driven by JSDoc style comments 
-in the source code of the documented library e.g API specification, Working Example etc. Expecting a whole development team to use __one__ method 
-of documentation is not realistic. Swanky Docs will enable you to capture all these various documentation sources to 
-construct a seamless page that caters to all styles of the documentation capturing process.
+To illustrate a 'real world' use case you may have a section of your documentation that has one or more sections that are driven from __Markdown__ files e.g. _Overview_, _Accessibility Guidelines_ and another section that is driven by JSDoc style comments in the source code of the documented library e.g API specification, Working Example etc. Expecting a whole development team to use __one__ method of documentation is not realistic. Swanky Docs will enable you to capture all these various documentation sources to construct a seamless page that caters to all styles of the documentation capturing process.
 
 #### Example:
 ```yaml

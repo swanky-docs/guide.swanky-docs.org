@@ -4,6 +4,7 @@ module.exports = {
   "src": "src",
   "theme": "src/themes/docs-theme",
   "output": "docs",
+  "serverPath": "guide.swanky-docs.org",
   "sections": [
     {
       "title": "Getting started",
